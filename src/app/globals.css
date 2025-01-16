@@ -70,3 +70,29 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* 程式碼區塊樣式 */
+pre {
+  overflow-x: auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+code {
+  counter-reset: line;
+}
+
+code > [data-line]::before {
+  counter-increment: line;
+  content: counter(line);
+  display: inline-block;
+  width: 1rem;
+  margin-right: 1rem;
+  text-align: right;
+  color: gray;
+}
+
+code > [data-highlighted-line] {
+  background: rgba(200, 200, 255, 0.1);
+  border-left: 2px solid #60a5fa;
+}
