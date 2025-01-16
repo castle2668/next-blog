@@ -3,6 +3,7 @@ import matter from 'gray-matter'
 import { bundleMDX } from 'mdx-bundler'
 import path from 'path'
 import rehypePrettyCode from 'rehype-pretty-code'
+import remarkGfm from 'remark-gfm'
 
 import { Post } from '@/types/post'
 
@@ -25,9 +26,12 @@ export async function getMdxSource(slug: string) {
   const filePath = path.join(process.cwd(), 'src/content', `${slug}.md`)
   const source = fs.readFileSync(filePath, 'utf8')
 
-  const { code, frontmatter } = await bundleMDX({
-    source,
+  const { content, data } = matter(source)
+
+  const result = await bundleMDX({
+    source: content,
     mdxOptions(options) {
+      options.remarkPlugins = [...(options.remarkPlugins ?? []), remarkGfm]
       options.rehypePlugins = [
         ...(options.rehypePlugins ?? []),
         [rehypePrettyCode, prettyCodeOptions],
@@ -37,8 +41,8 @@ export async function getMdxSource(slug: string) {
   })
 
   return {
-    code,
-    frontmatter,
+    code: result.code,
+    frontmatter: data,
   }
 }
 
