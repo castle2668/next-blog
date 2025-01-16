@@ -71,28 +71,44 @@ body {
   }
 }
 
-/* 程式碼區塊樣式 */
+/* 程式碼區塊基本樣式 */
 pre {
   overflow-x: auto;
-  padding: 1rem;
+  color: white;
+  background-color: #282c34 !important; /* one-dark-pro 的背景色 */
   border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1.5rem 0;
 }
 
-code {
-  counter-reset: line;
+/* 行內程式碼 */
+:not(pre) > code {
+  background-color: hsl(var(--muted));
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
 }
 
-code > [data-line]::before {
-  counter-increment: line;
-  content: counter(line);
-  display: inline-block;
-  width: 1rem;
-  margin-right: 1rem;
-  text-align: right;
-  color: gray;
+/* 程式碼區塊中的程式碼 */
+pre > code {
+  display: grid;
+  background: none !important;
+  padding: 0;
+  font-size: 0.875rem;
+  line-height: 1.6;
 }
 
-code > [data-highlighted-line] {
-  background: rgba(200, 200, 255, 0.1);
+/* 高亮行 */
+.line--highlighted {
+  background-color: rgba(200, 200, 255, 0.1);
   border-left: 2px solid #60a5fa;
+  padding-left: 0.5rem;
+}
+
+/* 高亮單字 */
+.word--highlighted {
+  background-color: rgba(200, 200, 255, 0.1);
+  padding: 0.2rem;
+  border-radius: 0.25rem;
 }

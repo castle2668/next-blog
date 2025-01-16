@@ -14,10 +14,10 @@ const prettyCodeOptions = {
     }
   },
   onVisitHighlightedLine(node: any) {
-    node.properties.className.push('highlighted')
+    node.properties.className.push('line--highlighted')
   },
   onVisitHighlightedWord(node: any) {
-    node.properties.className = ['word']
+    node.properties.className = ['word--highlighted']
   },
 }
 
