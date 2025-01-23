@@ -3,8 +3,6 @@ title: '[Data Structures] Binary Search Trees'
 excerpt: "In this article, we'll dive into the fundamentals of Binary Search Trees (BST), a powerful data structure that organizes data for efficient insertion, search, and traversal operations. Starting from the basic concepts, we’ll explore the recursive call stack, how to insert and search for values, and cover multiple traversal methods, including depth-first (in-order, pre-order, post-order) and breadth-first traversals. By the end, you’ll understand BST operations and have the code to create and manipulate a Binary Search Tree in JavaScript."
 tags: ['datastructures', 'javascript']
 date: 2024-11-01
-author: 'Sean Huang'
-image: 'javascript.png'
 slug: 2024-11-01-binary-search-trees
 ---
 

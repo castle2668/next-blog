@@ -3,8 +3,6 @@ title: '[Algorithms] Reverse Words in a Sentence'
 excerpt: 'Today, we’re tackling the Reverse Words algorithm! This is a fun little challenge where we take a sentence, flip each word individually, and put the sentence back together—no messing with the word order, just reversing each word. Let’s dive in!'
 tags: ['algorithms', 'javascript']
 date: 2024-09-18
-author: 'Sean Huang'
-image: 'javascript.png'
 slug: 2024-09-18-reverse-words
 ---
 

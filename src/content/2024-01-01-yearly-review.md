@@ -1,10 +1,8 @@
 ---
 title: '2023 年度回顧'
 excerpt: '來記錄一下我在 2023 年發生的大小事情 🎉'
-tags: ['yearlyreview', 'life']
+tags: ['yearlyreview', 'travel']
 date: 2024-01-01
-author: 'Sean Huang'
-image: 'work-life-balance.jpg'
 slug: 2024-01-01-yearly-review
 ---
 
@@ -23,6 +21,7 @@ slug: 2024-01-01-yearly-review
 ## 二、部落格
 
 今年把 Gatsby 改用 Next 了，會這麼改是因為 Gatsby 團隊支援度給我的感覺不是很 OK，就還是轉往自由度更高，而且團隊維護率較高的 Next 吧。
+
 部落格使用技術：
 
 - Next.js (Pages Router)

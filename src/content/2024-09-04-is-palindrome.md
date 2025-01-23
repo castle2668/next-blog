@@ -3,8 +3,6 @@ title: '[Algorithms] Is Palindrome'
 excerpt: "The 'Is Palindrome' algorithm checks whether a string reads the same forward and backward, ignoring spaces and punctuation. It's a simple yet classic algorithm that can be easily implemented with JavaScript string and array manipulation."
 tags: ['algorithms', 'javascript']
 date: 2024-09-04
-author: 'Sean Huang'
-image: 'javascript.png'
 slug: 2024-09-04-is-palindrome
 ---
 

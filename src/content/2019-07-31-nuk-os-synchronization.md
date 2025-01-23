@@ -3,8 +3,6 @@ title: 'Operating System: Synchronization'
 excerpt: '本文介紹作業系統「同步」的概念。'
 tags: ['os', 'nuk']
 date: 2019-07-31
-author: 'Huang, Yung-Hsiang'
-image: 'development.jpg'
 slug: 2019-07-31-nuk-os-synchronization
 ---
 

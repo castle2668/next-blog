@@ -3,8 +3,6 @@ title: '[Data Structures] Linked Lists'
 excerpt: 'Linked lists are a fundamental data structure in computer science, offering flexibility in managing and organizing data. This article introduces linked lists in JavaScript, explaining their structure, basic operations like adding and removing nodes, and how to search within them. Perfect for beginners, this guide takes you step-by-step through building and understanding linked lists, making complex concepts accessible to everyone.'
 tags: ['datastructures', 'javascript']
 date: 2024-10-28
-author: 'Sean Huang'
-image: 'javascript.png'
 slug: 2024-10-28-linked-lists
 ---
 

@@ -1,10 +1,8 @@
 ---
 title: '來去電影院 2024'
 excerpt: '跟大家分享我在 2024 這一年，跑去電影院看的所有電影！'
-tags: ['life']
+tags: ['movie']
 date: 2024-12-30
-author: 'Sean Huang'
-image: 'work-life-balance.jpg'
 slug: 2024-12-30-movie-list
 ---
 

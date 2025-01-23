@@ -3,8 +3,6 @@ title: 'React Router V6 - Form & Action'
 excerpt: '上一篇介紹了 React Router V6 的 Loader，本文會介紹另一個重要的新功能 Action 與表單處理方式。'
 tags: ['react', 'reactrouter']
 date: 2023-04-14
-author: 'Sean Huang'
-image: 'react.jpg'
 slug: 2023-04-14-react-router-v6-action
 ---
 

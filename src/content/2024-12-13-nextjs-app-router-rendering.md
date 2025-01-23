@@ -3,8 +3,6 @@ title: 'Next.js 15 (App Router) - Rendering'
 excerpt: 'Next.js 從 Pages Router 轉換到 App Router 後，資料獲取和渲染策略有了重大改變。本文將詳細解說如何將 Next.js 12 的 CSR、SSG、ISR 和 SSR 模式轉換到 App Router 架構中。'
 tags: ['nextjs', 'approuter']
 date: 2024-12-13
-author: 'Sean Huang'
-image: 'nextjs.png'
 slug: 2024-12-13-nextjs-app-router-rendering
 ---
 

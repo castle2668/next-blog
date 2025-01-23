@@ -42,7 +42,12 @@ export async function getMdxSource(slug: string) {
 
   return {
     code: result.code,
-    frontmatter: data,
+    frontmatter: {
+      title: data.title,
+      date: data.date,
+      excerpt: data.excerpt,
+      tags: data.tags,
+    },
   }
 }
 

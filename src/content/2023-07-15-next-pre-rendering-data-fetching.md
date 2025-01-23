@@ -3,8 +3,6 @@ title: 'Next.js 預先渲染頁面與資料取得方式'
 excerpt: 'Next.js 除了可以用來做 SSR 之外，其實也可以取代原本的 React 做 SPA，或是取代 Gridsome 做 SSG 靜態網站，也可以根據需求混合生成頁面，稱為 ISG，第一次聽到這麼多種，腦子差點打結了 XD'
 tags: ['nextjs', 'pagesrouter']
 date: 2023-07-15
-author: 'Sean Huang'
-image: 'nextjs.png'
 slug: 2023-07-15-next-pre-rendering-data-fetching
 ---
 

@@ -3,8 +3,6 @@ title: 'Forms in React'
 excerpt: '本文介紹如何在 React 中使用 Forms 表單相關元素。'
 tags: ['react']
 date: 2021-10-10
-author: '海豹人 Sealman'
-image: 'react.jpg'
 slug: 2021-10-10-forms-in-react
 ---
 

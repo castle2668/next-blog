@@ -3,8 +3,6 @@ title: 'ES6 Class & Extends 與 ES7 現代寫法'
 excerpt: '本文介紹 ES6 Class 實體與繼承的概念，以及進入 ES7 後出現的簡化寫法。'
 tags: ['javascript']
 date: 2021-09-02
-author: '海豹人 Sealman'
-image: 'javascript.png'
 slug: 2021-09-02-ex6-class-extends-es7
 ---
 

@@ -3,8 +3,6 @@ title: 'Understand JavaScript #1 How JS Reads Code'
 excerpt: '第一篇文要先來說說 JavaScript 是如何運行的，它是透過什麼去解析程式碼，而在這個過程中有哪些觀念呢。'
 tags: ['javascript']
 date: 2021-02-23
-author: '海豹人 Sealman'
-image: 'javascript.png'
 slug: 2021-02-23-how-js-reads-code
 ---
 

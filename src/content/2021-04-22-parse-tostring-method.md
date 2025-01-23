@@ -3,8 +3,6 @@ title: 'Understand JavaScript #25 解析 toString() 方法 ft. typeof, instanceo
 excerpt: '本文主要內容為探討 JavaScript 中 toString() 方法的相關知識，以及關鍵字 typeof 和 instanceof 的使用。'
 tags: ['javascript']
 date: 2021-04-22
-author: '海豹人 Sealman'
-image: 'javascript.png'
 slug: 2021-04-22-parse-tostring-method
 ---
 

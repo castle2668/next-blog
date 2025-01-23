@@ -3,8 +3,6 @@ title: '[Data Structures] Hash Tables'
 excerpt: "In this article, we’ll explore the hash table data structure, which provides fast data access using keys. We'll build our own hash table step-by-step in JavaScript, covering how it stores data, handles collisions, and retrieves values."
 tags: ['datastructures', 'javascript', 'hashtable']
 date: 2024-11-13
-author: 'Sean Huang'
-image: 'javascript.png'
 slug: 2024-11-13-hash-tables
 ---
 

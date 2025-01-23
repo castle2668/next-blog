@@ -3,8 +3,6 @@ title: 'Vue 3 Methods × Computed × Watch'
 excerpt: '本文主要內容為探討 Vue 3 的 Methods、Computed、Watch 的寫法與相關知識。'
 tags: ['vue', 'compositionapi']
 date: 2021-04-30
-author: '海豹人 Sealman'
-image: 'development.jpg'
 slug: 2021-04-30-vue3-methods-computed-watch
 ---
 

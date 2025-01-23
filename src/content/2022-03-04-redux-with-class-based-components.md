@@ -3,8 +3,6 @@ title: 'React Redux with Class-based Components'
 excerpt: '本文介紹 React Redux 於 Class-based Components 的使用。'
 tags: ['react', 'redux']
 date: 2022-03-04
-author: '海豹人 Sealman'
-image: 'react.jpg'
 slug: 2022-03-04-redux-with-class-based-components
 ---
 

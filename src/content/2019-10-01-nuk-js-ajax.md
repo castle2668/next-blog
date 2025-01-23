@@ -3,15 +3,13 @@ title: 'NUK JavaScript #5：AJAX 撈取資料'
 excerpt: '這次要介紹如何用 AJAX 撈取資料。'
 tags: ['nuk', 'javascript']
 date: 2019-10-01
-author: 'Huang, Yung-Hsiang'
-image: 'javascript.png'
 slug: 2019-10-01-nuk-js-ajax
 ---
 
 ## 如何用 AJAX 撈取資料
 
 > 使用資料：Open1999 派工受理案件資料  
-> 資料網址：https://data.kcg.gov.tw/dataset/open1999
+> 資料網址：[https://data.kcg.gov.tw/dataset/open1999](https://data.kcg.gov.tw/dataset/open1999)
 
 首先，建立一個 XMLHttpRequest，它可以傳送一個網路請求到對方伺服器去要資料，並準備取得 (get) 網址資料。
 
@@ -96,7 +94,7 @@ console.log(2) // #3
 
 題目：撈出鼓山區總共有多少案件
 
-> 1999 API：https://data.kcg.gov.tw/dataset/open1999
+> 1999 API：[https://data.kcg.gov.tw/dataset/open1999](API：https://data.kcg.gov.tw/dataset/open1999)
 
 ```html
 <!-- HTML -->

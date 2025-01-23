@@ -5,6 +5,7 @@ import {
   Card,
   CardContent,
   CardDescription,
+  CardFooter,
   CardHeader,
   CardTitle,
 } from '@/components/ui/card'
@@ -13,21 +14,19 @@ import { Post } from '@/types/post'
 const PostCard = ({ post }: { post: Post }) => {
   return (
     <Link href={`/posts/${post.slug}`}>
-      <Card className="h-full transition-colors hover:border-primary">
+      <Card className="flex h-full flex-col transition-colors hover:border-primary">
         <CardHeader>
           <CardTitle>{post.title}</CardTitle>
           <CardDescription>
-            <div className="flex items-center gap-2">
-              <time dateTime={post.date}>
-                {new Date(post.date).toLocaleDateString('zh-TW')}
-              </time>
-              <span>·</span>
-              <span>{post.author}</span>
-            </div>
+            <time dateTime={post.date}>
+              {new Date(post.date).toLocaleDateString('zh-TW')}
+            </time>
           </CardDescription>
         </CardHeader>
-        <CardContent>
-          <p className="mb-4 text-muted-foreground">{post.excerpt}</p>
+        <CardContent className="flex-1">
+          <p className="line-clamp-3 text-muted-foreground">{post.excerpt}</p>
+        </CardContent>
+        <CardFooter>
           <div className="flex flex-wrap gap-2">
             {post.tags.map(tag => (
               <Badge key={tag} variant="secondary">
@@ -35,7 +34,7 @@ const PostCard = ({ post }: { post: Post }) => {
               </Badge>
             ))}
           </div>
-        </CardContent>
+        </CardFooter>
       </Card>
     </Link>
   )

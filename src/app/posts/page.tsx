@@ -1,3 +1,6 @@
+import { Metadata } from 'next'
+
+import { PageTitle } from '@/components/PageTitle'
 import PostCard from '@/components/PostCard'
 import {
   Pagination,
@@ -11,13 +14,22 @@ import {
 import { getAllPosts } from '@/lib/mdx'
 import { getPaginatedPosts } from '@/lib/pagination'
 
+export const metadata: Metadata = {
+  title: '所有文章',
+  description: '所有文章列表',
+  openGraph: {
+    url: 'https://seanhuang.dev/posts',
+    title: '所有文章',
+    description: '所有文章列表',
+  },
+}
+
 interface PostsPageProps {
-  searchParams: { page: string }
+  searchParams: Promise<{ page: string }>
 }
 
 const PostsPage = async (props: PostsPageProps) => {
   const { searchParams } = props
-
   const { page } = await searchParams
 
   const posts = await getAllPosts()
@@ -32,8 +44,8 @@ const PostsPage = async (props: PostsPageProps) => {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="mb-8">
-        <h1 className="text-3xl font-bold">所有文章</h1>
-        <p className="mt-2 text-muted-foreground">
+        <PageTitle>所有文章</PageTitle>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
           分享技術、電影、動漫、遊戲和旅遊的心得
         </p>
       </div>

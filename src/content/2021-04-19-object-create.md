@@ -3,8 +3,6 @@ title: 'Understand JavaScript #23 使用 Object.create 建立多層繼承'
 excerpt: '本文主要內容為探討「Object.create」的相關知識以及搭配使用的 Polyfill。'
 tags: ['javascript']
 date: 2021-04-19
-author: '海豹人 Sealman'
-image: 'javascript.png'
 slug: 2021-04-19-object-create
 ---
 
@@ -90,22 +88,22 @@ Piu.drink() // Piu喝水 (Animal 原型的方法)
 
 傻傻分不清楚？以 Mamegoma 與 Piu 的關係為例：
 
-**1. 建構函式 Mamegoma()**
+### 1. 建構函式 Mamegoma()
 
 - 建構函式 Mamegoma() 的原型屬性 `prototype` 會指向 Mamegoma.prototype 這個原型物件
 - 在這個原型物件裡有共有的屬性和方法，所有建構函式聲明的實體 (Piu, Shirogoma) 都可以共享這些屬性和方法
 
 > 建構函式的 `__proto__` 屬性則是指向 Function.prototype
 
-**2. 原型物件 Mamegoma.prototype**
+### 2. 原型物件 Mamegoma.prototype
 
 - 保存著實體共享的屬性和方法，有一個指針 `constructor` 指回建構函式
 
 > 原型物件的 `__proto__` 屬性是指向它的建構函式的原型物件，即 Animal.prototype
-
+>
 > 而 Animal.prototype 的 `__proto__` 會再指向 Object.prototype，最後 Object.prototype 的 `__proto__` 會指向 null
 
-**3. 實體 Piu**
+### 3. 實體 Piu
 
 - Piu 是 Mamegoma 這個物件的實體，Piu 這個物件有屬性 `__proto__`，指向建構函式的原型物件 (Mamegoma.prototype)，這樣子就可以像上面 1 所說的訪問到原型物件的所有方法了
 

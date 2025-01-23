@@ -3,8 +3,6 @@ title: '[Algorithms] Reverse Array In Place'
 excerpt: 'Learn how to reverse an array in place with this efficient, space-saving technique. In this post, we’ll explore swapping elements directly within the original array without creating a new one, practicing some key array manipulation skills along the way. Perfect for those looking to level up their JavaScript skills!'
 tags: ['algorithms', 'javascript']
 date: 2024-09-25
-author: 'Sean Huang'
-image: 'javascript.png'
 slug: 2024-09-25-reverse-array-in-place
 ---
 

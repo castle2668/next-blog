@@ -3,8 +3,6 @@ title: 'Next.js 15 Featured-based Folder Structure'
 excerpt: '分享近期針對 Next.js 專案所設計的 Feature-based 資料夾結構，這個架構可以幫助提升模組化、可維護性，與擴展性，覺得相當不錯。'
 tags: ['nextjs', 'approuter']
 date: 2024-12-11
-author: 'Sean Huang'
-image: 'nextjs.png'
 slug: 2024-12-11-nextjs-featured-based-folder-structure
 ---
 

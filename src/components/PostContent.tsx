@@ -1,4 +1,17 @@
+'use client'
+
 import { getMDXComponent } from 'mdx-bundler/client'
+import { useRouter } from 'next/navigation'
+
+import { Badge } from './ui/badge'
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from './ui/breadcrumb'
 
 interface PostContentProps {
   code: string
@@ -12,12 +25,52 @@ interface PostContentProps {
 
 const PostContent = ({ code, frontmatter }: PostContentProps) => {
   const MDXContent = getMDXComponent(code)
+  const router = useRouter()
 
   return (
     <article className="mx-auto">
+      <Breadcrumb className="mb-8">
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <BreadcrumbLink href="/">首頁</BreadcrumbLink>
+          </BreadcrumbItem>
+          <BreadcrumbSeparator />
+          <BreadcrumbItem>
+            <BreadcrumbLink href="/posts">文章</BreadcrumbLink>
+          </BreadcrumbItem>
+          <BreadcrumbSeparator />
+          <BreadcrumbItem>
+            <BreadcrumbPage>{frontmatter.title}</BreadcrumbPage>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
+
       <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
         {frontmatter.title}
       </h1>
+
+      <div className="flex flex-wrap items-center gap-2 leading-7 text-muted-foreground [&:not(:first-child)]:mt-6">
+        <time dateTime={frontmatter.date}>
+          {new Date(frontmatter.date).toLocaleDateString('zh-TW')}
+        </time>
+        <span>·</span>
+        {frontmatter.tags.map(tag => (
+          <Badge
+            key={tag}
+            variant="secondary"
+            onClick={() => {
+              router.push(`/tags/${tag}`)
+            }}
+            className="cursor-pointer"
+          >
+            {tag}
+          </Badge>
+        ))}
+      </div>
+
+      <p className="leading-7 [&:not(:first-child)]:mt-6">
+        {frontmatter.excerpt}
+      </p>
 
       <div className="leading-7 [&:not(:first-child)]:mt-6">
         <MDXContent
@@ -31,6 +84,11 @@ const PostContent = ({ code, frontmatter }: PostContentProps) => {
               <h3 className="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
                 {children}
               </h3>
+            ),
+            h4: ({ children }) => (
+              <h4 className="mt-6 scroll-m-20 text-xl font-semibold tracking-tight">
+                {children}
+              </h4>
             ),
             p: ({ children }) => (
               <p className="leading-7 [&:not(:first-child)]:mt-6">{children}</p>
