@@ -1,14 +1,14 @@
 ---
 title: '冬季首爾八天自由行'
 excerpt: '雖然這篇文章的網址我是用 "seoul-travel-1"，但其實這是我人生第二次去韓國。第一次去韓國是小時候跟家人一起跟團，今年是從疫情結束後再次開始規劃國外旅遊，打算先去韓國自由行八天試試水溫，暑假則是可以再去一次日本。基本上韓國我都沒什麼規劃，就是逛街吃美食？比較特殊的行程應該就只有滑雪、樂天世界，跟體驗韓服而已，主打一個出國 Chill 的風格。'
-tags: ['travel', 'seoul']
+tags: ['travel', 'korea']
 date: 2024-02-29
 slug: 2024-02-29-seoul-travel-1
 ---
 
-這趟旅程其實沒有什麼特別嚴謹的規劃，純粹就是吃吃喝喝、隨便晃晃，體驗冬天的首爾。不過該玩的還是有玩到，該吃的也沒少吃！以下就來簡單記錄一下每天的行程！
+## 行程總覽
 
-行程總覽：
+這趟旅程其實沒有什麼特別嚴謹的規劃，純粹就是吃吃喝喝、隨便晃晃，體驗冬天的首爾。不過該玩的還是有玩到，該吃的也沒少吃！以下就來簡單記錄一下每天的行程！
 
 - Day 1：下飛機
 - Day 2：望遠市場、明洞、弘大
@@ -19,7 +19,8 @@ slug: 2024-02-29-seoul-travel-1
 - Day 7：Issac Toast、景福宮、北村韓屋村、醬蟹、T1 Base Camp
 - Day 8：回台灣
 
-<iframe title="冬季首爾八天自由行" src="https://www.funliday.com/yunghsiang/trips/6571f7eab7cb9800513323eb/embed?hl=zh_tw" width="100%" height="360" frameBorder="0"></iframe><p><a href="https://www.funliday.com/yunghsiang/trips/6571f7eab7cb9800513323eb" target="_blank" style={{color: "#EE3C77", fontWeight: "bold"}}>冬季首爾八天自由行 | 翔仔仔 @ Funliday 旅遊回憶、遊記攻略、行程規劃</a></p>
+<iframe title="冬季首爾八天自由行" src="https://www.funliday.com/yunghsiang/trips/6571f7eab7cb9800513323eb/embed?hl=zh_tw" width="100%" height="360" frameBorder="0"></iframe>
+<a href="https://www.funliday.com/yunghsiang/trips/6571f7eab7cb9800513323eb" target="_blank" style={{color: "#EE3C77", fontWeight: "bold"}}>冬季首爾八天自由行 | 翔仔仔 @ Funliday 旅遊回憶、遊記攻略、行程規劃</a>
 
 ## Day 1：下飛機 & 適應天氣
 
