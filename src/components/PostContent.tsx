@@ -1,6 +1,7 @@
 'use client'
 
 import { getMDXComponent } from 'mdx-bundler/client'
+import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 
 import { Badge } from './ui/badge'
@@ -148,6 +149,22 @@ const PostContent = ({ code, frontmatter }: PostContentProps) => {
               )
             },
             pre: ({ children }) => <pre>{children}</pre>,
+            img: ({ src, alt }) => (
+              <Image
+                src={src}
+                alt={alt}
+                width={0}
+                height={0}
+                sizes="(max-width: 768px) 100vw, 768px"
+                style={{
+                  width: '100%',
+                  maxWidth: '768px',
+                  height: 'auto',
+                  margin: '0 auto',
+                }}
+                className="my-6"
+              />
+            ),
           }}
         />
       </div>
