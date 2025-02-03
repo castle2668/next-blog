@@ -80,7 +80,7 @@ export default async function ArchivesPage() {
                   .map(post => (
                     <div key={post.slug} className="flex flex-col gap-1">
                       <div className="flex items-baseline gap-1 sm:gap-4">
-                        <time className="min-w-24 text-sm text-gray-700 lg:text-base">
+                        <time className="min-w-24 text-sm text-muted-foreground lg:text-base">
                           {new Date(post.date).toISOString().split('T')[0]}
                         </time>
                         <Link
