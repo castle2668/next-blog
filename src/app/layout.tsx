@@ -26,17 +26,17 @@ export const metadata: Metadata = {
     description:
       '歡迎來到我的部落格，這裡有我分享的技術筆記、生活點滴和旅遊見聞。',
     siteName: '大貓的第一個家',
-    // images: [
-    //   {
-    //     url: 'https://seanhuang.dev/og.png',
-    //   },
-    // ],
+    images: [
+      {
+        url: 'https://seanhuang.dev/logo.jpeg',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     site: '@castle2668',
     creator: '@castle2668',
-    // images: 'https://seanhuang.dev/og.png',
+    images: 'https://seanhuang.dev/logo.jpeg',
   },
 }
 
