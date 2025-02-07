@@ -52,6 +52,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <head>
         <link rel="sitemap" href="/sitemap.xml" />
         <link rel="icon" href="/favicon.ico" sizes="48x48" />
+        <meta name="apple-mobile-web-app-title" content="大貓的家" />
       </head>
       <body>
         <ThemeProvider
