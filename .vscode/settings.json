@@ -16,5 +16,67 @@
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "text": "Write commit messages in English."
+    },
+    {
+      "text": "Follow the structure: `<Type>(<Scope>): <Subject>`."
+    },
+    {
+      "text": "Only use the following types: Build, Chore, CI, Deprecate, Docs, Feat, Fix, Perf, Refactor, Release, Test, Revert, Style."
+    },
+    {
+      "text": "Only use the following scopes: API, Config, Framework, Function, Git, Infra, Lang, Module, Theme, Vendor, Views."
+    },
+    {
+      "text": "Use API as scope for changes of API."
+    },
+    {
+      "text": "Use Config as scope for changes of configuration."
+    },
+    {
+      "text": "Use Framework as scope for changes of framework. (React, Angular, Vue, etc.)"
+    },
+    {
+      "text": "Use Function as scope for changes of function."
+    },
+    {
+      "text": "Use Git as scope for changes of deployment. (如規範、協作方式, etc.)"
+    },
+    {
+      "text": "Use Infra as scope for changes of deployment (laC, etc.)"
+    },
+    {
+      "text": "Use Lang as scope for changes of locale."
+    },
+    {
+      "text": "Use Module as scope for changes of module. (如：數個相關的功能或更抽象的上層控制區塊… 等)"
+    },
+    {
+      "text": "Use Theme as scope for changes of theme. (CSS, SCSS, etc.)"
+    },
+    {
+      "text": "Use Vendor as scope for upgrading/removing/changing/overriding of 3rd-party libs."
+    },
+    {
+      "text": "Use Views as scope for changes of views. (HTML, image, etc.)"
+    },
+    {
+      "text": "Keep the subject concise (max 50 characters, no period)."
+    },
+    {
+      "text": "Provide a detailed body explaining the changes (numbering each line and wrap lines at 72 characters)."
+    },
+    {
+      "text": "Keep the subject concise (max 72 characters, capitalized)."
+    },
+    {
+      "text": "Provide a detailed body explaining the changes (numbering each line)."
+    },
+    {
+      "text": "Only use present tense in all line."
+    }
+  ]
 }
